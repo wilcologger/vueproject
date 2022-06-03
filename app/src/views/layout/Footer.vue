@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <h6>copyright</h6>
+        <h6>copyright 2022</h6>
     </footer>
 </template>
 
