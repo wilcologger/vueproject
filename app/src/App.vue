@@ -17,4 +17,9 @@
 import Header from "./views/layout/Header";
 import Footer from "./views/layout/Footer";
 
+export default {
+    name: 'Vue Project',
+    componentes: {Header, Footer}
+}
+
 </script>
