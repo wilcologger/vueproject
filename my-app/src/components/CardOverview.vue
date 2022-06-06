@@ -1,8 +1,6 @@
 <template>
     <div class="row">
-        <div class="col-12 col-lg-4" v-for="index in 5" v-bind:key="index">
-            <cardApp :cardItem="index" />
-        </div>
+        <cardApp v-for="index in cardContent" :cardContent="index" :key="index.title" />
     </div>
 </template>
 
@@ -14,8 +12,16 @@
         components: {
             CardApp,
         },
-        props: {
-            'cards': Array,
+        data() {
+            return {
+                cardContent: [
+                    { title: 'Card title 1', text: 'Ik ben makelaar in koffi, en woon op de Lauriergracht No 37. Het is mijn gewoonte niet, romans te schrijven, of zulke dingen.'},
+                    { title: 'Card title 2', text: 'Ik ben makelaar in koffi, en woon op de Lauriergracht No 37. Het is mijn gewoonte niet, romans te schrijven, of zulke dingen.'},
+                    { title: 'Card title 3', text: 'Ik ben makelaar in koffi, en woon op de Lauriergracht No 37. Het is mijn gewoonte niet, romans te schrijven, of zulke dingen.'},
+                    { title: 'Card title 4', text: 'Ik ben makelaar in koffi, en woon op de Lauriergracht No 37. Het is mijn gewoonte niet, romans te schrijven, of zulke dingen.'},
+                    { title: 'Card title 5', text: 'Ik ben makelaar in koffi, en woon op de Lauriergracht No 37. Het is mijn gewoonte niet, romans te schrijven, of zulke dingen.'},
+                ]
+            }
         }
     }
 </script>
