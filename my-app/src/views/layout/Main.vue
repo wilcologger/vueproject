@@ -1,8 +1,6 @@
 <template>
     <main class="main">
-        <div class="content-wrapper">
-            <CardOverviewApp />
-        </div>
+        <CardOverviewApp />
     </main>
 </template>
 

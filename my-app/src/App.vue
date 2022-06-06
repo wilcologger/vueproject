@@ -1,8 +1,10 @@
 <template>
-<div class="container">
-    <HeaderApp/>
-    <MainApp/>
-    <FooterApp/>
+  <div class="content-wrapper bg-light">
+    <div class="container">
+      <HeaderApp/>
+      <MainApp/>
+      <FooterApp/>
+    </div>
   </div>
 </template>
 
