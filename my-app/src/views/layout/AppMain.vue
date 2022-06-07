@@ -1,16 +1,16 @@
 <template>
     <main class="main">
-        <CardOverviewApp />
+        <AppCardOverview />
     </main>
 </template>
 
 <script>
-    import CardOverviewApp from '@/components/CardOverview.vue';
+    import AppCardOverview from '@/components/AppCardOverview.vue';
 
     export default {
         name: 'AppMain',
         components: {
-            CardOverviewApp,
+            AppCardOverview,
         }
     }
 </script>
