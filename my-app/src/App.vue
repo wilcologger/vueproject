@@ -1,24 +1,24 @@
 <template>
   <div class="content-wrapper bg-light">
     <div class="container">
-      <HeaderApp/>
-      <MainApp/>
-      <FooterApp/>
+      <AppHeader/>
+      <AppMain/>
+      <AppFooter/>
     </div>
   </div>
 </template>
 
 <script>
-import HeaderApp from './views/layout/Header.vue'
-import MainApp from './views/layout/Main.vue'
-import FooterApp from './views/layout/Footer.vue'
+import AppHeader from './views/layout/AppHeader.vue'
+import AppMain from './views/layout/AppMain.vue'
+import AppFooter from './views/layout/AppFooter.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderApp,
-    MainApp,
-    FooterApp,
+    AppHeader,
+    AppMain,
+    AppFooter,
   },
 }
 </script>

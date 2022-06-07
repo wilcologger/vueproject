@@ -8,7 +8,7 @@
     import CardOverviewApp from '@/components/CardOverview.vue';
 
     export default {
-        name: 'MainApp',
+        name: 'AppMain',
         components: {
             CardOverviewApp,
         }
