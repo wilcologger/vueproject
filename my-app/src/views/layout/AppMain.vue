@@ -6,14 +6,14 @@
 </template>
 
 <script>
-    import AppHero from '@/components/AppHero.vue';
-    import AppCardOverview from '@/components/AppCardOverview.vue';
+import AppHero from '@/components/AppHero.vue'
+import AppCardOverview from '@/components/AppCardOverview.vue'
 
-    export default {
-        name: 'AppMain',
-        components: {
-            AppHero,
-            AppCardOverview,
-        }
-    }
+export default {
+  name: 'AppMain',
+  components: {
+    AppHero,
+    AppCardOverview
+  }
+}
 </script>

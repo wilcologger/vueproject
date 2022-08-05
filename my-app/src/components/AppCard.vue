@@ -14,15 +14,15 @@
 </template>
 
 <script>
-    export default {
-        name: 'AppCard',
-        props: {
-            cardContent: Object
-        },
-        methods: {
-            nextPage: function() {
-                console.log("You have click me!");
-            }
-        }
+export default {
+  name: 'AppCard',
+  props: {
+    cardContent: Object
+  },
+  methods: {
+    nextPage: function () {
+      console.log('You have click me!')
     }
+  }
+}
 </script>
